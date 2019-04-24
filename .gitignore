@@ -1,7 +1,7 @@
 # hugo destination build
 public/
 
-# Microsoft Visual Studio exclusions
+# Microsoft Visual Studio exclusions 
 *.sln
 *.suo
 *.phpproj
