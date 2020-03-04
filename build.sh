@@ -5,6 +5,7 @@ cat /etc/issue
 asciidoctor -V
 
 # the main call to Hugo, passing it all parameters from the command-line:
+echo Running Hugo with arguments: "$@"
 hugo "$@"
 hugoReturnCode=$?
 
